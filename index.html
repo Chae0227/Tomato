@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Here Comes Tomato!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Antic+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Antic+Slab&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav" id="mainNav">
+    <a href="#hero">Home</a>
+    <span>|</span>
+    <a href="#meet-me">Meet me</a>
+    <span>|</span>
+    <a href="#tasty">Tomatasty!</a>
+    <span>|</span>
+    <a href="#pick">Pick My plate!</a>
+    <span>|</span>
+    <a href="#secret">Secret</a>
+  </nav>
+
+  <main class="hero" id="hero">
+    <p class="quote">“You say tomato. I say tomato.”</p>
+    <div class="tomato-image">
+      <img src="images/tomato_stem.png" alt="토마토 꼭지">
+    </div>
+    <h1 class="title">HERE COMES TOMATO!</h1>
+  </main>
+
+  <section id="meet-me" class="section">
+    <div class="tomato-section">
+      <img src="images/rotating_tomato.png" alt="회전 토마토" class="rotating-tomato">
+      <h2 class="section-title">MEET ME, TOMATO!</h2>
+
+      <div class="tomato-rows">
+        <div class="tomato-row">
+          <div class="tomato-box">
+            <img src="images/cherry_tomato.png" class="tomato-img tomato1" alt="대추방울토마토">
+            <img src="images/plate.png" class="hover-plate" alt="접시">
+            <div class="tooltip right">
+              <strong>대추방울토마토 (Cherry Tomato)</strong><br>
+              작고 귀엽지만, 존재감은 확실한 미니 토마토의 대표주자!<br>
+              한 입에 쏙 들어오는 크기와 새콤달콤한 맛,<br>
+              그리고 얇은 껍질과 풍부한 당도 덕분에 누구에게나 사랑받아요.<br>
+              도시락, 샐러드, 간식, 심지어 케찹까지,<br>
+              모든 토마토 요리의 기본이자 국민 토마토라고도 불려요.<br>
+              라이코펜과 비타민C도 풍부해서 피부미용에도 좋고,<br>
+              100g당 15~20kcal 정도로 다이어트 간식으로도 최고!<br>
+              보관할 땐 꼭지가 위로 가도록 세워두면 더 오래 싱싱하답니다. 🍅
+            </div>
+          </div>
+          <div class="tomato-box">
+            <img src="images/torange.png" class="tomato-img tomato2" alt="토렌지">
+            <img src="images/plate.png" class="hover-plate" alt="접시">
+            <div class="tooltip right">
+              <strong>토렌지 (Torenji / T’mato-orange)</strong><br>
+              토마토계의 뉴트로 스타, 새콤함과 달콤함의 이상적인 균형!<br>
+              ‘토렌지’는 이름처럼 토마토 + 오렌지의 상큼한 조합을 닮은 신개념 품종이에요.<br>
+              겉모습은 밝은 주황빛으로 눈에 확 띄고,<br>
+              맛은 일반 방울토마토보다 훨씬 더 상큼하고 과일 같은 단맛이 특징이에요. 🍊<br>
+              식감은 껍질이 얇고 과육이 탱글해서 생으로 먹기 좋고,<br>
+              과일처럼 접시에 담아 디저트처럼 먹는 토마토로 인기를 끌고 있어요.<br>
+              최근엔 마켓컬리, 백화점 과일 코너, 고급 샐러드 바 등에서 자주 등장하죠.<br>
+              영양 면에서도 라이코펜 + 비타민 A/C가 풍부해서<br>
+              피부, 눈 건강, 면역력에 도움되고,<br>
+              달콤한데도 칼로리는 낮아서 헬시 간식으로 딱!<br>
+              📦 껍질이 얇아 상처가 나기 쉬우니, 
+              냉장 보관보다는 서늘한 곳에 살짝 두는 걸 추천해요.
+            </div>
+          </div>
+          <div class="tomato-box">
+            <img src="images/black_tomato.png" class="tomato-img tomato3" alt="흑토마토">
+            <img src="images/plate.png" class="hover-plate" alt="접시">
+            <div class="tooltip left">
+              <strong>흑토마토 (Black/Purple Tomato)</strong><br>
+              “내 피부는 조금 어두워.<br>
+              그치만 그만큼 진하고 깊은 단맛이 매력이야.<br>
+              색소가 풍부해서 항산화 성분도 최고라고!<br>
+              나는 좀 더 고급진 요리에 어울려.”
+            </div>
+          </div>
+        </div>
+        <div class="tomato-row">
+          <div class="tomato-box">
+            <img src="images/green_tomato.png" class="tomato-img tomato4" alt="청토마토">
+            <img src="images/plate.png" class="hover-plate" alt="접시">
+            <div class="tooltip right">
+              <strong>청토마토 (Green Tomato)</strong><br>
+              “나 사실 덜 익은 게 아니고, 원래 초록색이야!<br>
+              새콤한 맛이 특징이고, 튀김이나 피클로 먹으면 식감이 최고야.<br>
+              톡 쏘는 산미 때문에 '어른 입맛용 토마토'로 불리기도 해.”
+            </div>
+          </div>
+          <div class="tomato-box">
+            <img src="images/beefsteak_tomato.png" class="tomato-img tomato5" alt="비프스테이크 토마토">
+            <img src="images/plate.png" class="hover-plate" alt="접시">
+            <div class="tooltip left">
+              <strong>비프스테이크 토마토 (Beefsteak Tomato)</strong><br>
+              “나는 햄버거 안에서 존재감 뿜뿜하는 토마토야!<br>
+              한 조각만으로도 빵 사이에 촉촉함과 단맛을 채울 수 있지.<br>
+              육질이 풍부해서 샌드위치, 버거, 스테이크에도 딱이야.”
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tasty">
+    <div class="tasty-top">
+      <img src="images/rotating_tomato.png" alt="회전 토마토" class="rotating-tomato">
+      <h2 class="section-title">TomaTasty!</h2>
+    </div>
+    <button class="slide-btn prev">‹</button>
+    <button class="slide-btn next">›</button>
+    <div class="recipe-slide-wrapper">
+      <div class="recipe-slide slide-track">
+        <div class="recipe-group">
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="images/plate.png" class="plate" alt="접시 이미지">
+              <img src="images/somen.png" class="dish" alt="토마토 소면 이미지">
+            </div>
+            <div class="recipe-label">
+              토마토 소면 
+              <a class="recipe-button" href="https://uglyus.co.kr/recipes/1410?utm_source=twitter&utm_medium=social&utm_campaign=recipe&utm_content=noodle" target="_blank">RECIPE</a>
+            </div>
+            <small class="recipe-meta">#여름 #가벼운한끼 #레몬간장소스</small>
+            <div class="recipe-ingredients">
+              <span>• 재료</span>
+              <ul>
+                <li><span>방울토마토</span><span>레몬즙</span></li>
+                <li><span>소면</span><span>간장</span></li>
+                <li><span>얼음</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="images/plate.png" class="plate" alt="접시 이미지">
+              <img src="images/eggstir.png" class="dish" alt="토마토 달걀 볶음 이미지">
+            </div>
+            <div class="recipe-label">
+              토마토 달걀 볶음
+              <a class="recipe-button" href="https://www.sommeliertimes.com/news/articleView.html?idxno=19836" target="_blank">RECIPE</a>
+            </div>
+            <small class="recipe-meta">#고단백 #간단요리 #따뜻한위로</small>
+            <div class="recipe-ingredients">
+              <span>• 재료</span>
+              <ul>
+                <li><span>토마토</span><span>소금</span></li>
+                <li><span>달걀</span><span>후추</span></li>
+                <li><span>파</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="images/plate.png" class="plate" alt="접시 이미지">
+              <img src="images/marinade.png" class="dish" alt="방울 토마토 마리네이드 이미지">
+            </div>
+            <div class="recipe-label">
+              방울 토마토 마리네이드
+              <a class="recipe-button" href="https://www.10000recipe.com/recipe/7009897" target="_blank">RECIPE</a>
+            </div>
+            <small class="recipe-meta">#상큼한간식 #레몬간장 #와인안주</small>
+            <div class="recipe-ingredients">
+              <span>• 재료</span>
+              <ul>
+                <li><span>방울토마토</span><span>레몬즙</span></li>
+                <li><span>올리브오일</span><span>허브</span></li>
+                <li><span>소금</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-group">
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="images/plate.png" class="plate" alt="접시 이미지">
+              <img src="images/risotto.png" class="dish" alt="토마토 리조또 이미지">
+            </div>
+            <div class="recipe-label">
+              토마토 리조또
+              <a class="recipe-button" href="https://blog.naver.com/juheang/221798119611" target="_blank">RECIPE</a>
+            </div>
+            <small class="recipe-meta">#이탈리안감성 #따뜻한위로 #치즈풍미</small>
+            <div class="recipe-ingredients">
+              <span>• 재료</span>
+              <ul>
+                <li><span>토마토</span><span>치킨스톡</span></li>
+                <li><span>밥</span><span>파마산 치즈</span></li>
+                <li><span>양파</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="images/plate.png" class="plate" alt="접시 이미지">
+              <img src="images/pizza.png" class="dish" alt="토마토 피자 이미지">
+            </div>
+            <div class="recipe-label">
+              토마토 피자
+              <a class="recipe-button" href="https://www.10000recipe.com/recipe/6671670" target="_blank">RECIPE</a>
+            </div>
+            <small class="recipe-meta">#간식피자 #간단조리 #바삭바삭</small>
+            <div class="recipe-ingredients">
+              <span>• 재료</span>
+              <ul>
+                <li><span>토마토</span><span>바질</span></li>
+                <li><span>또띠아</span><span>치즈</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="recipe-image">
+              <img src="images/plate.png" class="plate" alt="접시 이미지">
+              <img src="images/juice.png" class="dish" alt="토마토 주스 이미지">
+            </div>
+            <div class="recipe-label">
+              토마토 주스
+              <a class="recipe-button" href="https://www.10000recipe.com/recipe/6936987" target="_blank">RECIPE</a>
+            </div>
+            <small class="recipe-meta">#헬시음료 #홈메이드주스 #피부건강</small>
+            <div class="recipe-ingredients">
+              <span>• 재료</span>
+              <ul>
+                <li><span>토마토</span><span>물 또는 소금</span></li>
+                <li><span>얼음</span><span>꿀</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pick">
+    <div class="tasty-top">
+      <img src="images/rotating_tomato.png" alt="회전 토마토" class="rotating-tomato">
+      <h2 class="section-title">Pick My Plate!</h2>
+    </div>
+    <p id="pickLabel" class="pick-label">LET’S PICK!</p>
+    <div class="card initial" id="plateCard">
+      <img id="cardImage" alt="레시피 이미지" style="display: none;">
+      <p id="cardTitle" style="display: none;"></p>
+      <span id="cardTags" class="tags" style="display: none;"></span>
+      <a id="recipeLink" class="recipe" href="#" target="_blank" style="display: none;">RECIPE</a>
+    </div>
+    <canvas id="confettiCanvas"></canvas>
+  </section>
+
+  <section id="secret">
+    <div class="secret-top">
+      <img src="images/rotating_tomato.png" alt="회전 토마토" class="rotating-tomato">
+      <h2 class="section-title">MY SECRET...</h2>
+    </div>
+    <p id="secret-call">Hey, tell me the secret!</p>
+    <div id="secret-tomato" class="tomato-char">
+      <img src="images/tomatoman.png" alt="토마토맨">
+    </div>
+    <div id="secret-box" class="secret-box" style="display: none;"></div>
+  </section>
+
+  <script>
+    window.addEventListener('scroll', function () {
+      const nav = document.getElementById('mainNav');
+      const heroHeight = document.getElementById('hero').offsetHeight;
+
+      if (window.scrollY > heroHeight * 0.8) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+  <script>
+    const track = document.querySelector('.recipe-slide');
+    const nextBtn = document.querySelector('.slide-btn.next');
+    const prevBtn = document.querySelector('.slide-btn.prev');
+    const groups = document.querySelectorAll('.recipe-group');
+
+    let index = 0;
+    const maxIndex = groups.length - 1;
+
+    nextBtn.addEventListener('click', () => {
+      if (index < maxIndex) {
+        index++;
+        track.style.transform = `translateX(-${index * 100}%)`;
+      }
+    });
+
+    prevBtn.addEventListener('click', () => {
+      if (index > 0) {
+        index--;
+        track.style.transform = `translateX(-${index * 100}%)`;
+      }
+    });
+  </script>
+  
+  <script>
+    const tastySection = document.getElementById("tasty");
+    
+    function toggleSlideButtons() {
+      const rect = tastySection.getBoundingClientRect();
+      const screenHeight = window.innerHeight;
+
+      const isMostlyInView =
+        rect.top <= screenHeight * 0.25 &&
+        rect.bottom >= screenHeight * 0.75;
+
+      if (isMostlyInView) {
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+      } else {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+      }
+    }
+
+    window.addEventListener('scroll', toggleSlideButtons);
+    window.addEventListener('load', toggleSlideButtons);
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script>
+  const card = document.getElementById('plateCard');
+  const img = document.getElementById('cardImage');
+  const title = document.getElementById('cardTitle');
+  const tags = document.getElementById('cardTags');
+  const link = document.getElementById('recipeLink');
+
+  const recipes = [
+    {
+      image: 'images/p_eggstir.png',
+      title: '토마토 달걀 볶음',
+      tags: '#고단백 #간단요리 #따뜻한 위로',
+      link: 'https://www.sommeliertimes.com/news/articleView.html?idxno=19836'
+    },
+    {
+      image: 'images/p_somen.png',
+      title: '토마토 소면',
+      tags: '#여름 #가벼운한끼 #레몬간장소스',
+      link: 'https://uglyus.co.kr/recipes/1410?utm_source=twitter&utm_medium=social&utm_campaign=recipe&utm_content=noodle'
+    },
+    {
+      image: 'images/p_marinade.png',
+      title: '방울 토마토 마리네이드',
+      tags: '#상큼한간식 #레몬간장 #와인안주',
+      link: 'https://www.10000recipe.com/recipe/7009897'
+    },
+    {
+      image: 'images/p_risotto.png',
+      title: '토마토 리조또',
+      tags: '#이탈리안감성 #따뜻한위로 #치즈풍미',
+      link: 'https://blog.naver.com/juheang/221798119611'
+    },
+    {
+      image: 'images/p_pizza.png',
+      title: '토마토 피자',
+      tags: '#간식피자 #간단조리 #바삭바삭',
+      link: 'https://www.10000recipe.com/recipe/6671670'
+    },
+    {
+      image: 'images/p_juice.png',
+      title: '토마토 주스',
+      tags: '#헬시음료 #홈메이드주스 #피부건강',
+      link: 'https://www.10000recipe.com/recipe/6936987'
+    }
+  ];
+
+  card.addEventListener('click', () => {
+    if (card.classList.contains('show')) {
+      // 카드가 보여진 상태라면 닫고, 내용 비우기
+      card.classList.remove('show');
+      img.style.display = 'none';
+      title.style.display = 'none';
+      tags.style.display = 'none';
+      link.style.display = 'none';
+    } else {
+      // 새 랜덤 레시피 보여주기
+      const picked = recipes[Math.floor(Math.random() * recipes.length)];
+
+      img.src = picked.image;
+      title.textContent = picked.title;
+      tags.textContent = picked.tags;
+      link.href = picked.link;
+
+      img.style.display = 'block';
+      title.style.display = 'block';
+      tags.style.display = 'block';
+      link.style.display = 'inline-block';
+
+      card.classList.add('show');
+
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.7 },
+      });
+    }
+  });
+</script>
+
+
+<script>
+  const secrets = [
+    "🧙‍♀️ 과거에는 '독이 든 열매'로 여겨졌어!\n\n유럽에서는 토마토를 처음 봤을 때 독이 있다고 생각했어.\n이유는? 귀족들이 은식기에 담으면 산성 성분 때문에 납 중독이 일어났기 때문!\n그래서 '이거 먹으면 죽는다'며 장식용 식물로만 키웠대.",
+    "🌱 사실 과일이야, 채소 아냐!\n\n씨가 안에 있고 꽃에서 자라서 식물학적으로는 과일.\n요리에서는 채소처럼 쓰이니까 혼란의 대표주자!\n1893년 미국 대법원까지 갔고 결국 '세금상 채소'로 판결😂",
+    "🚢 페루와 멕시코가 고향이야\n\n토마토는 원래 중남미가 원산지. 아즈텍 문명에선 '토마틀'이라 불렸어.\n유럽은 1500년대에 들여오고 이름은 '사랑의 사과'나 '황금 사과'였대!",
+    "🍅 이탈리아 음식 같지만, 파스타에 등장한 건 1800년대야\n\n예전엔 치즈, 기름 위주였고 토마토는 후기 혁신의 산물.\n'토마토 = 이탈리아'는 생각보다 최신 이미지!",
+    "🧴 케찹은 원래 생선 소스였다?!\n\n케첩의 기원은 중국어 '케찌압(鮭汁)' → 생선 발효 소스.\n1800년대 초엔 토마토 없는 케찹도 많았어!",
+    "📦 우주도 간 토마토\n\n2012년 NASA는 우주 토마토 씨앗을 지구 학생들에게 배포!\n지구 vs 우주 재배 비교 실험.\n'토마토는 우주에서도 자란다'는 증명🌌"
+  ];
+
+  const tomato = document.getElementById("secret-tomato");
+  const box = document.getElementById("secret-box");
+
+  tomato.addEventListener("click", () => {
+    tomato.classList.add("clicked");
+    setTimeout(() => tomato.classList.remove("clicked"), 600);
+
+    const random = secrets[Math.floor(Math.random() * secrets.length)];
+    box.innerText = random;
+    box.style.display = "block";
+  });
+</script>
+
+
+
+</body>
+</html>
